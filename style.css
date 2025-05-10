@@ -48,6 +48,17 @@ section::after {
   transform-style: preserve-3d;
 }
 
+.name-number{
+  position: absolute;
+  padding-left: 0%;
+  text-align: center;
+}
+
+.valid-date {
+  padding-left: 60%;
+  text-align: right;
+}
+
 .container:hover {
   transform: rotateY(180deg);
 }
